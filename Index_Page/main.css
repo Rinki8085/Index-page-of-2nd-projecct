@@ -109,7 +109,7 @@ body{
 
 #hero .hero-container{
     background-color: black;
-    display:table-cell;                 /*----------------*/
+    display:table-cell;                
     margin:0;
     padding:0;
     text-align:center;
