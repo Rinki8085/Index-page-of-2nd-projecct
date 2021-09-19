@@ -1,5 +1,5 @@
 body{
-    background-color:darkslategray;
+    background-color:black;
 }
 
 .trip-section{
@@ -18,9 +18,8 @@ body{
 }
 
 .card-div{
-    background-color:transparent;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    background-color:darkslategray;
+    color:white;
     box-shadow: 0 0 10px grey;
 }
 
