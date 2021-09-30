@@ -11,6 +11,11 @@ body{
     text-align:center;
 }
 
+.glow{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
 .text-color:hover{
     font-style:italic;
     transform: perspective(1px) translateZ(0);
@@ -22,6 +27,11 @@ body{
     color:white;
     margin-right:4px;
     margin-bottom:10px;
+}
+
+.explore{
+    position: relative;
+    right: 120px;
 }
 
 .img{
