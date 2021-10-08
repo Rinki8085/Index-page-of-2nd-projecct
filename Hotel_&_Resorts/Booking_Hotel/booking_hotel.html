@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Booking type</title>
+        <link rel="stylesheet" href="booking_hotel.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--------------------------start of heading--------------------------->
+        <div class="container-fluid heading">
+            <button onclick="changeMode()">DarkMode</button>    
+            <script>
+                function changeMode(){
+                var mybody = document.body;
+                // if body have class mybody it will remove the class else add
+                mybody.classList.toggle('myDark');
+                }
+                </script>
+            <div class="text-right"> 
+                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-primary">LogOut</button>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div id="logo">
+                    <span style="font-size:50px">&hearts;</span>
+                </div>
+            </div> 
+            <div class="row align-items-center justify-content-center text">Cherish Your Journey</div>            
+        </div>
+        <!--------------------------End of heading--------------------------->
+
+        <!-------------------------Start of navigation----------------------->
+        <div id="navbar">
+            <a class="active" href="../Index_Page/Cherish_Your_Journey.html">Home</a>
+            <a href="../Trip_Ideas/trip_idea/trip_idea.html">Trip Ideas</a>
+        </div>
+        <!------------------------End of navigation--------------------------->
+
+        <!---------------Start of maincontainer------------------>
+        
+        <!------------------End of maincontainer----------------->
+
+    </body>
+</html>
