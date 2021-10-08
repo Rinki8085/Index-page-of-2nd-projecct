@@ -1,5 +1,5 @@
 .heading{
-   background-image: url('wallpaper1.png');
+   background-image: url('wallpaper2.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -21,7 +21,6 @@
 
 .myDark{
     background-color: black;
-    color:white;
 }
 
 .image_con{
@@ -40,11 +39,15 @@
 
 #logo>span{
  padding:45px 0px;
+ color:black;
+ font-size:4vw;
 }
 
 .text{
   font-size:3vw;
   font-weight:bold;
+  color:gold;
+  text-shadow:2px 2px 2px yellowgreen;
 }
 
  /* Style the navbar */
@@ -66,18 +69,6 @@
   /* Page content */
   .content {
     padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
   } 
 
 .tilecontainer{
@@ -87,7 +78,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-color:#333;
   color: white;
   text-align: center;
 }
