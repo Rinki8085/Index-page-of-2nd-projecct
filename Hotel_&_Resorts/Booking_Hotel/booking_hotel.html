@@ -1,13 +1,15 @@
 <html>
     <head>
-        <title>Booking type</title>
+        <title>Booking Hotel</title>
         <link rel="stylesheet" href="booking_hotel.css">
-        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel="icon" href="../icon.png" type="image/png">
     </head>
     <body>
         <!--------------------------start of heading--------------------------->
@@ -29,10 +31,28 @@
                     <span style="font-size:50px">&hearts;</span>
                 </div>
             </div> 
-            <div class="row align-items-center justify-content-center text">Cherish Your Journey</div>            
+            <div class="row align-items-center justify-content-center text">Cherish Your Journey</div> 
+            <div class="row align-items-center justify-content-center">
+                <select>
+                    <option>--Select Location--</option>
+                    <option>Lucknow</option>
+                    <option>Goa</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Pune</option>
+                </select>
+                <select>
+                    <option>---Select Hotels---</option>
+                    <option>Hotel1</option>
+                    <option>Hotel2</option>
+                    <option>Hotel3</option>
+                    <option>Hotel4</option>
+                    <option>Hotel5</option>
+                </select>
+            </div>           
         </div>
         <!--------------------------End of heading--------------------------->
-
+        
         <!-------------------------Start of navigation----------------------->
         <div id="navbar">
             <a class="active" href="../Index_Page/Cherish_Your_Journey.html">Home</a>
@@ -41,7 +61,90 @@
         <!------------------------End of navigation--------------------------->
 
         <!---------------Start of maincontainer------------------>
-        
+        <div class="container mt-4">
+            <div class="container-fluid headings">
+                Find The Hotels According To Your Place
+            </div>
+
+            <div class="row choice ml-2 mb-4">
+                <div class="col-md-3 filter mr-4">
+                    <div style="margin-top:10px; font-size:20px; font-weight:bold;">Filter</div>
+                <hr class="straight">
+                <div>
+                    <div class="text">Select Location</div>
+                    <!-------select location------->
+                    <div style="margin-bottom:10px;">
+                        <select  id="dropdown">
+                            <option value="none">----Select Location----</option>
+                            <option value="Sultanpur">Sultanpur</option>
+                            <option value="Pratapgarh">Pratapgarh</option>
+                            <option value="Prayagraz">Prayagraz</option>
+                            <option value="Mirzapur">Mirzapur</option>
+                        </select>        
+                    </div>
+                </div>
+                <div>
+                    <div class="text">Room Type</div>
+                    <div style="margin-bottom:20px;">
+                        <input type="checkbox">Deluxe Room<br>
+                        <input type="checkbox">Premiere Room<br>
+                        <input type="checkbox">Semi Deluxe Room<br>
+                        <input type="checkbox">Travel
+                    </div>
+                </div>
+                
+                <!------Select money btwn range of this----->
+                <div>
+                    <div class="text">Cost</div>
+                    <div style="margin-bottom:20px;">
+                        <input type="radio">less than 500rs<br>
+                        <input type="radio">500rs to 1000rs<br>
+                        <input type="radio">1000rs to 1500rs<br>
+                        <input type="radio">1500rs to 2000rs<br>
+                        <input type="radio">2000rs
+                    </div>
+                </div>    
+            </div>
+            <!-------------End of filter page--------------->
+            <div class="col-lg-8 mt-4">
+                <div class="container-fluid mb-3 filter">
+                    <div class="image_con">
+                        <img src="Holiday.png" alt="Business" class="Img">
+                    </div>
+                    <div style="display:inline-block;">
+                        <div style="font-size:25px; color:darkblue; font-weight: bold;">Jacob Garden Hotel</div>
+                        <div style="font-size:19px; color:darkgrey; font-weight: bold;">
+                            Dubai<br>
+                            Bur Dubai|1.9 km from AI Fahid Historical Neighbourhood
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mb-3 filter">
+                    <div class="image_con">
+                        <img src="https://i.ibb.co/7XHrT6B/Jacob_garden_hotel.webp" alt="Business" class="Img">
+                    </div>
+                    <div style="display:inline-block;">
+                        <div style="font-size:25px; color:darkblue; font-weight: bold;">Jacob Garden Hotel</div>
+                        <div style="font-size:19px; color:darkgrey; font-weight: bold;">
+                            Dubai<br>
+                            Bur Dubai|1.9 km from AI Fahid Historical Neighbourhood
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mb-3 filter">
+                    <div class="image_con">
+                        <img src="Holiday.png" alt="Business" class="Img">
+                    </div>
+                    <div style="display:inline-block;">
+                        <div style="font-size:25px; color:darkblue; font-weight: bold;">Jacob Garden Hotel</div>
+                        <div style="font-size:19px; color:darkgrey; font-weight: bold;">
+                            Dubai<br>
+                            Bur Dubai|1.9 km from AI Fahid Historical Neighbourhood
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!------------------End of maincontainer----------------->
 
     </body>

@@ -9,10 +9,19 @@
 
 #logo{
     background-color: white;
-    height:25%;
-    width:8.5%;
+    height:150px;
+    width:150px;
     border-radius:50%;
+    background-color:white;
+    display:flex;
+    justify-content:center;
 }
+
+#logo>span{
+  padding:45px 0px;
+  color:black;
+  font-size:4vw;
+ }
 
 .myDark{
     background-color: black;
@@ -23,25 +32,10 @@
   margin:3px 3px 3px 3px;
 }
 
-#logo{
-  height:150px;
-  width:150px;
-  border:50%;
-  background-color:white;
-  display:flex;
-  justify-content:center;
-}
-
-#logo>span{
- padding:45px 0px;
- color:black;
- font-size:4vw;
-}
-
 .text{
-  font-size:3vw;
+  font-size:5vw;
   font-weight:bold;
-  color:gold;
+  color:whitesmoke;
   text-shadow:2px 2px 2px yellowgreen;
 }
 
@@ -69,7 +63,25 @@
 .tilecontainer{
   margin:0;
   border-radius:5px;
-  box-shadow: 5px 5px 10px grey;
+  -webkit-box-shadow: 0 0 5px 2px grey;
+  -moz-box-shadow: 0 0 5px 2px grey;
+  box-shadow: 0 0 5px 2px grey;
+}
+
+.tilecontainer:hover, .tilecontainer:active{
+  background-color:papayawhip;
+}
+
+.txt1{
+  font-size:28px; 
+  color:darkblue; 
+  font-weight: bold;
+}
+
+.txt2{
+  font-size:21px; 
+  color:darkgrey; 
+  font-weight: bold;
 }
 
 .footer {

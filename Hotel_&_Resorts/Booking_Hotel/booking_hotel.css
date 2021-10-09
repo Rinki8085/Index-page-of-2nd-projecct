@@ -19,8 +19,8 @@
 }
 
 #logo{
-  height:150px;
-  width:150px;
+  height:100px;
+  width:100px;
   border:50%;
   background-color:white;
   display:flex;
@@ -28,13 +28,13 @@
 }
 
 #logo>span{
- padding:45px 0px;
+ padding:20px 0px;
  color:black;
  font-size:4vw;
 }
 
 .text{
-  font-size:3vw;
+  font-size:1.5rem;
   font-weight:bold;
   color:gold;
   text-shadow:2px 2px 2px yellowgreen;
@@ -60,3 +60,52 @@
   .content {
     padding: 16px;
   } 
+
+/*--------*/
+.headings{
+    font-size:35px;
+    font-weight:bold;
+    color:midnightblue;
+    margin-bottom:15px;
+}
+
+.headings:hover{
+    font-style:Italic;
+}
+
+/*---filter---*/
+
+.filter{
+    -webkit-box-shadow: 0 0 8px 4px grey;
+    -moz-box-shadow: 0 0 8px 4px grey;
+    box-shadow: 0 0 8px 4px grey;
+}
+
+.filter:hover,.filter:active{
+  background-color:papayawhip;
+}
+
+.text{
+    margin-top:10px; 
+    color:whitesmoke; 
+    font-size:6vh;
+    margin-bottom:10px;
+}
+
+.image_con{
+    display:inline-block;
+    margin:3px 3px 3px 3px;
+  }
+
+.Img{
+    width:150px; 
+    height:150px; 
+    border-radius:5px;
+}
+
+.footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    margin-top:20px;
+  }
