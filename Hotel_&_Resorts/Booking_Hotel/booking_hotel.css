@@ -34,10 +34,9 @@
 }
 
 .text{
-  font-size:1.5rem;
+  font-size:3vw;
   font-weight:bold;
-  color:gold;
-  text-shadow:2px 2px 2px yellowgreen;
+  color:black;
 }
 
 /* Style the navbar */
