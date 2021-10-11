@@ -21,26 +21,28 @@
 /*------recomend-----*/
 #recomend{
   position: fixed;
-  display:block;
+  display:none;
   width: 150px; 
   height: 150px;
-  border:2px solid red;
+  border:5px solid red;
   border-radius:50%;
   top: 10%;
   left: 70%;
   right: 0;
   bottom: 0;
-  background-color:hotpink;
+  background-color:MistyRose;
   opacity:0.9;
-  box-shadow:2px 2px 5px pink;
-  color:whitesmoke;
   padding:5px 5px 15px 5px;
   z-index: 5; 
   cursor: pointer;
   text-align: center;
 }
 
-
+#locality{
+  text-align:center;
+  font-size:22px;
+  font-weight:bold;
+}
 
 #logo{
   height:100px;
@@ -99,9 +101,9 @@
 /*---filter---*/
 
 .filter{
-    -webkit-box-shadow: 0 0 8px 4px grey;
-    -moz-box-shadow: 0 0 8px 4px grey;
-    box-shadow: 0 0 8px 4px grey;
+    -webkit-box-shadow: 0 0 8px 8px grey;
+    -moz-box-shadow: 0 0 8px 8px grey;
+    box-shadow: 0 0 8px 8px grey;
 }
 
 .filter:hover,.filter:active{

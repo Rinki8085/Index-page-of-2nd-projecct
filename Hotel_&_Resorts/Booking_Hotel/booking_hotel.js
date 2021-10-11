@@ -15,6 +15,10 @@ function recommend(){
     }
 
     document.getElementById('recomend').style.display = "block";
-    document.getElementById('location').innerHTML = localStorage.getItem("ddvalue");
+    document.getElementById('locality').innerHTML = localStorage.getItem("ddvalue");
     return true;
+}
+
+function disappear(){
+    document.getElementById('recomend').style.display = 'none'
 }
