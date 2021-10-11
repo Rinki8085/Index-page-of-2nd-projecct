@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
         <link rel="icon" href="../icon.png" type="image/png">
+        <script src="booking_hotel.js"></script>
     </head>
     <body>
         <!--------------------------start of heading--------------------------->
@@ -26,6 +27,13 @@
                 <button type="submit" class="btn btn-primary">Login</button>
                 <button type="button" class="btn btn-primary">LogOut</button>
             </div>
+
+            <!-------For recommendation-------->
+            <div id="recomend">
+                <div id="location">Lucknow</div>
+                <div id="type"></div>
+            </div>
+            <!-------------------------------->
             <div class="row align-items-center justify-content-center">
                 <div id="logo">
                     <span style="font-size:50px">&hearts;</span>
@@ -33,13 +41,13 @@
             </div> 
             <div class="row align-items-center justify-content-center text">Cherish Your Journey</div> 
             <div class="row align-items-center justify-content-center">
-                <select>
-                    <option>--Select Location--</option>
-                    <option value="1,Lucknow" name="Location">Lucknow</option>
-                    <option value="2,Goa" name="Location">Goa</option>
-                    <option value="3,Mumbai" name="Location">Mumbai</option>
-                    <option value="4,Delhi" name="Location">Delhi</option>
-                    <option value="5,Pune" name="Location">Pune</option>
+                <select id="Location" onchange="recommend()">
+                    <option seleted>--Select Location--</option>
+                    <option value="Lucknow" name="Location">Lucknow</option>
+                    <option value="Goa" name="Location">Goa</option>
+                    <option value="Mumbai" name="Location">Mumbai</option>
+                    <option value="Delhi" name="Location">Delhi</option>
+                    <option value="Pune" name="Location">Pune</option>
                 </select>
                 <select>
                     <option>---Select Hotels---</option>
@@ -112,25 +120,33 @@
                         <img src="Holiday.png" alt="Business" class="Img">
                     </div>
                     <div style="display:inline-block;">
-                        <div style="font-size:25px; color:darkblue; font-weight: bold;">Jacob Garden Hotel</div>
+                        <div style="font-size:25px; color:blue; font-weight: bold;">Jacob Garden Hotel</div>
                         <div style="font-size:19px; color:darkgrey; font-weight: bold;">
                             Dubai<br>
                             Bur Dubai|1.9 km from AI Fahid Historical Neighbourhood
                         </div>
                     </div>
                     <hr>
-                    <
+                    <div>
+                        <div style="display:inline-block;"></div>
+                        <div style="display:inline-block;"></div>
+                    </div>
                 </div>
                 <div class="container-fluid mb-3 filter">
                     <div class="image_con">
                         <img src="https://i.ibb.co/7XHrT6B/Jacob_garden_hotel.webp" alt="Business" class="Img">
                     </div>
                     <div style="display:inline-block;">
-                        <div style="font-size:25px; color:darkblue; font-weight: bold;">Jacob Garden Hotel</div>
+                        <div style="font-size:25px; color:blue; font-weight: bold;">Jacob Garden Hotel</div>
                         <div style="font-size:19px; color:darkgrey; font-weight: bold;">
                             Dubai<br>
                             Bur Dubai|1.9 km from AI Fahid Historical Neighbourhood
                         </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <div style="display:inline-block;"></div>
+                        <div style="display:inline-block;"></div>
                     </div>
                 </div>
                 <div class="container-fluid mb-3 filter">
@@ -138,11 +154,16 @@
                         <img src="Holiday.png" alt="Business" class="Img">
                     </div>
                     <div style="display:inline-block;">
-                        <div style="font-size:25px; color:darkblue; font-weight: bold;">Jacob Garden Hotel</div>
+                        <div style="font-size:25px; color:blue; font-weight: bold;">Jacob Garden Hotel</div>
                         <div style="font-size:19px; color:darkgrey; font-weight: bold;">
                             Dubai<br>
                             Bur Dubai|1.9 km from AI Fahid Historical Neighbourhood
                         </div>
+                    </div>
+                    <hr>
+                    <div>
+                        <div style="display:inline-block;"></div>
+                        <div style="display:inline-block;"></div>
                     </div>
                 </div>
             </div>
